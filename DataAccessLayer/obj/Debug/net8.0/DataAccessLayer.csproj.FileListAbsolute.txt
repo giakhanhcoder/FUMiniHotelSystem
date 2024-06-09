@@ -1,0 +1,5 @@
+D:\FPTU\Semester 5\PRN212\assignment 1\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.AssemblyReference.cache
+D:\FPTU\Semester 5\PRN212\assignment 1\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPTU\Semester 5\PRN212\assignment 1\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfoInputs.cache
+D:\FPTU\Semester 5\PRN212\assignment 1\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfo.cs
+D:\FPTU\Semester 5\PRN212\assignment 1\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.CoreCompileInputs.cache
