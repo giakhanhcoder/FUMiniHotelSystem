@@ -51,5 +51,17 @@ namespace DataAccessLayer
         {
             return Customers.FirstOrDefault(c => c.CustomerID.ToString() == id);
         }
+
+        public static Customer GetAccountById(string customerId)
+        {
+            Customer accountMember = new Customer();
+            if (customerId.Equals("admin@FUMiniHotelSystem.com")) // just for demonstration
+            {
+                accountMember.CustomerID= 1;
+                accountMember.EmailAddress = customerId;
+                accountMember.Password = "123";
+            }
+            return accountMember;
+        }
     }
 }

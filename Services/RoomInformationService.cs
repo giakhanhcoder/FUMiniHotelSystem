@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Services
 {
-    public class RoomInformationService
+    public class RoomInformationService : IRoomInformationService
     {
         private readonly IRoomInformationRepository iRoomInformationRepository;
 
