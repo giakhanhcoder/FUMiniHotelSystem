@@ -35,6 +35,8 @@
             <ColumnDefinition Width="350"/>
         </Grid.ColumnDefinitions>
 
+
+
         <Label x:Name="label" Content="User Profile" Grid.Column="0" Grid.Row="0" FontSize="36" Grid.ColumnSpan="2" HorizontalAlignment="Center"/>
 
         <Label x:Name="label1" Margin="2,2,2,2" Content="Customer ID" Grid.Column="0" Grid.Row="1"/>
@@ -63,7 +65,9 @@
 
         <StackPanel Grid.Column="0" Grid.Row="8" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,10,0,10">
             <Button x:Name="btnUpdate" Content="Update" Width="150" Height="50" Background="#FF1B7140" Foreground="White" Margin="10,0,10,0" Click="btnUpdate_Click"/>
+            <Button x:Name="btnBookingReservation" Content="Booking Reservation" Width="150" Height="50" Background="#FF1B71A1" Foreground="White" Margin="10,0,10,0" Click="btnBookingReservation_Click"/>
             <Button x:Name="btnClose" Content="Close" Width="150" Height="50" Background="#FFEF8F18" Foreground="White" Margin="10,0,10,0" Click="btnClose_Click"/>
         </StackPanel>
+
     </Grid>
 </Window>

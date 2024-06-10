@@ -40,7 +40,21 @@ namespace FUMiniHotelSystem
                 this.Hide();
                 MainWindow mainWindow = new MainWindow();
                 mainWindow.Show();
+            }else if (account != null && account.Password.Equals(txtPass.Password)
+                && account.CustomerID == 2)
+            {
+                this.Hide();
+                CustomerProfile customerProfile = new CustomerProfile(account);
+                customerProfile.Show();
             }
+            else if (account != null && account.Password.Equals(txtPass.Password)
+                && account.CustomerID == 3)
+            {
+                this.Hide();
+                CustomerProfile customerProfile = new CustomerProfile(account);
+                customerProfile.Show();
+            }
+
             else
             {
                 MessageBox.Show("You are not perrmision !");

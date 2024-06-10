@@ -3,73 +3,102 @@
   "WorkspaceRootPath": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{87550EDD-230B-486C-A481-5F37875421CA}|FUMiniHotelSystem.csproj|d:\\fptu\\semester 5\\prn212\\assignment 1\\fuminihotelsystem\\bookingreservationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{87550EDD-230B-486C-A481-5F37875421CA}|FUMiniHotelSystem.csproj|solutionrelative:bookingreservationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87550EDD-230B-486C-A481-5F37875421CA}|FUMiniHotelSystem.csproj|d:\\fptu\\semester 5\\prn212\\assignment 1\\fuminihotelsystem\\roominformationmanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87550EDD-230B-486C-A481-5F37875421CA}|FUMiniHotelSystem.csproj|solutionrelative:roominformationmanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED5308EA-9A06-4B0A-AA5A-A9DAB0B1B827}|..\\BusinessObject\\BusinessObject.csproj|d:\\fptu\\semester 5\\prn212\\assignment 1\\businessobject\\bookingreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFD8185C-6B5E-44AC-989D-2DF95733610E}|..\\DataAccessLayer\\DataAccessLayer.csproj|d:\\fptu\\semester 5\\prn212\\assignment 1\\dataaccesslayer\\bookingreservationdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87550EDD-230B-486C-A481-5F37875421CA}|FUMiniHotelSystem.csproj|D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87550EDD-230B-486C-A481-5F37875421CA}|FUMiniHotelSystem.csproj|solutionrelative:loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87550EDD-230B-486C-A481-5F37875421CA}|FUMiniHotelSystem.csproj|d:\\fptu\\semester 5\\prn212\\assignment 1\\fuminihotelsystem\\customerprofile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87550EDD-230B-486C-A481-5F37875421CA}|FUMiniHotelSystem.csproj|solutionrelative:customerprofile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87550EDD-230B-486C-A481-5F37875421CA}|FUMiniHotelSystem.csproj|d:\\fptu\\semester 5\\prn212\\assignment 1\\fuminihotelsystem\\customerprofile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{87550EDD-230B-486C-A481-5F37875421CA}|FUMiniHotelSystem.csproj|solutionrelative:customerprofile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED5308EA-9A06-4B0A-AA5A-A9DAB0B1B827}|..\\BusinessObject\\BusinessObject.csproj|d:\\fptu\\semester 5\\prn212\\assignment 1\\businessobject\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87550EDD-230B-486C-A481-5F37875421CA}|FUMiniHotelSystem.csproj|d:\\fptu\\semester 5\\prn212\\assignment 1\\fuminihotelsystem\\createreportwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87550EDD-230B-486C-A481-5F37875421CA}|FUMiniHotelSystem.csproj|solutionrelative:createreportwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87550EDD-230B-486C-A481-5F37875421CA}|FUMiniHotelSystem.csproj|D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\roominformationmanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{87550EDD-230B-486C-A481-5F37875421CA}|FUMiniHotelSystem.csproj|solutionrelative:roominformationmanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87550EDD-230B-486C-A481-5F37875421CA}|FUMiniHotelSystem.csproj|D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87550EDD-230B-486C-A481-5F37875421CA}|FUMiniHotelSystem.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87550EDD-230B-486C-A481-5F37875421CA}|FUMiniHotelSystem.csproj|d:\\fptu\\semester 5\\prn212\\assignment 1\\fuminihotelsystem\\createreportwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{87550EDD-230B-486C-A481-5F37875421CA}|FUMiniHotelSystem.csproj|solutionrelative:createreportwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED5308EA-9A06-4B0A-AA5A-A9DAB0B1B827}|..\\BusinessObject\\BusinessObject.csproj|d:\\fptu\\semester 5\\prn212\\assignment 1\\businessobject\\bookingdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DFD8185C-6B5E-44AC-989D-2DF95733610E}|..\\DataAccessLayer\\DataAccessLayer.csproj|d:\\fptu\\semester 5\\prn212\\assignment 1\\dataaccesslayer\\customerdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{87550EDD-230B-486C-A481-5F37875421CA}|FUMiniHotelSystem.csproj|D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{87550EDD-230B-486C-A481-5F37875421CA}|FUMiniHotelSystem.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60EDE8D3-FA6B-4F52-BE23-DC0297B6CACE}|..\\Services\\Services.csproj|d:\\fptu\\semester 5\\prn212\\assignment 1\\services\\roominformationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{87550EDD-230B-486C-A481-5F37875421CA}|FUMiniHotelSystem.csproj|D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\roominformationmanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{87550EDD-230B-486C-A481-5F37875421CA}|FUMiniHotelSystem.csproj|solutionrelative:roominformationmanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60EDE8D3-FA6B-4F52-BE23-DC0297B6CACE}|..\\Services\\Services.csproj|d:\\fptu\\semester 5\\prn212\\assignment 1\\services\\iroominformationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{87550EDD-230B-486C-A481-5F37875421CA}|FUMiniHotelSystem.csproj|d:\\fptu\\semester 5\\prn212\\assignment 1\\fuminihotelsystem\\bookingreservationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{87550EDD-230B-486C-A481-5F37875421CA}|FUMiniHotelSystem.csproj|solutionrelative:bookingreservationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87550EDD-230B-486C-A481-5F37875421CA}|FUMiniHotelSystem.csproj|D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87550EDD-230B-486C-A481-5F37875421CA}|FUMiniHotelSystem.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87550EDD-230B-486C-A481-5F37875421CA}|FUMiniHotelSystem.csproj|D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87550EDD-230B-486C-A481-5F37875421CA}|FUMiniHotelSystem.csproj|solutionrelative:loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED5308EA-9A06-4B0A-AA5A-A9DAB0B1B827}|..\\BusinessObject\\BusinessObject.csproj|d:\\fptu\\semester 5\\prn212\\assignment 1\\businessobject\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD8185C-6B5E-44AC-989D-2DF95733610E}|..\\DataAccessLayer\\DataAccessLayer.csproj|d:\\fptu\\semester 5\\prn212\\assignment 1\\dataaccesslayer\\bookingdetaildao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED5308EA-9A06-4B0A-AA5A-A9DAB0B1B827}|..\\BusinessObject\\BusinessObject.csproj|d:\\fptu\\semester 5\\prn212\\assignment 1\\businessobject\\roominformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED5308EA-9A06-4B0A-AA5A-A9DAB0B1B827}|..\\BusinessObject\\BusinessObject.csproj|d:\\fptu\\semester 5\\prn212\\assignment 1\\businessobject\\bookingreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED5308EA-9A06-4B0A-AA5A-A9DAB0B1B827}|..\\BusinessObject\\BusinessObject.csproj|d:\\fptu\\semester 5\\prn212\\assignment 1\\businessobject\\bookingdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD8185C-6B5E-44AC-989D-2DF95733610E}|..\\DataAccessLayer\\DataAccessLayer.csproj|d:\\fptu\\semester 5\\prn212\\assignment 1\\dataaccesslayer\\bookingreservationdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60EDE8D3-FA6B-4F52-BE23-DC0297B6CACE}|..\\Services\\Services.csproj|d:\\fptu\\semester 5\\prn212\\assignment 1\\services\\bookingreservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60EDE8D3-FA6B-4F52-BE23-DC0297B6CACE}|..\\Services\\Services.csproj|d:\\fptu\\semester 5\\prn212\\assignment 1\\services\\ibookingreservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87550EDD-230B-486C-A481-5F37875421CA}|FUMiniHotelSystem.csproj|d:\\fptu\\semester 5\\prn212\\assignment 1\\fuminihotelsystem\\bookingreservationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87550EDD-230B-486C-A481-5F37875421CA}|FUMiniHotelSystem.csproj|solutionrelative:bookingreservationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87550EDD-230B-486C-A481-5F37875421CA}|FUMiniHotelSystem.csproj|D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\roominformationmanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87550EDD-230B-486C-A481-5F37875421CA}|FUMiniHotelSystem.csproj|solutionrelative:roominformationmanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60EDE8D3-FA6B-4F52-BE23-DC0297B6CACE}|..\\Services\\Services.csproj|d:\\fptu\\semester 5\\prn212\\assignment 1\\services\\bookingdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A642FE6-33E5-4A11-B37B-3232CD9B9521}|..\\Repositories\\Repositories.csproj|d:\\fptu\\semester 5\\prn212\\assignment 1\\repositories\\bookingreservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD8185C-6B5E-44AC-989D-2DF95733610E}|..\\DataAccessLayer\\DataAccessLayer.csproj|d:\\fptu\\semester 5\\prn212\\assignment 1\\dataaccesslayer\\roomtypedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87550EDD-230B-486C-A481-5F37875421CA}|FUMiniHotelSystem.csproj|D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\customerprofile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87550EDD-230B-486C-A481-5F37875421CA}|FUMiniHotelSystem.csproj|solutionrelative:customerprofile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{87550EDD-230B-486C-A481-5F37875421CA}|FUMiniHotelSystem.csproj|D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{87550EDD-230B-486C-A481-5F37875421CA}|FUMiniHotelSystem.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{87550EDD-230B-486C-A481-5F37875421CA}|FUMiniHotelSystem.csproj|D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\createreportwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87550EDD-230B-486C-A481-5F37875421CA}|FUMiniHotelSystem.csproj|solutionrelative:createreportwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{87550EDD-230B-486C-A481-5F37875421CA}|FUMiniHotelSystem.csproj|D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87550EDD-230B-486C-A481-5F37875421CA}|FUMiniHotelSystem.csproj|solutionrelative:assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFD8185C-6B5E-44AC-989D-2DF95733610E}|..\\DataAccessLayer\\DataAccessLayer.csproj|d:\\fptu\\semester 5\\prn212\\assignment 1\\dataaccesslayer\\customerdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{87550EDD-230B-486C-A481-5F37875421CA}|FUMiniHotelSystem.csproj|D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\createreportwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{87550EDD-230B-486C-A481-5F37875421CA}|FUMiniHotelSystem.csproj|solutionrelative:createreportwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87550EDD-230B-486C-A481-5F37875421CA}|FUMiniHotelSystem.csproj|D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\customerprofile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{87550EDD-230B-486C-A481-5F37875421CA}|FUMiniHotelSystem.csproj|solutionrelative:customerprofile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87550EDD-230B-486C-A481-5F37875421CA}|FUMiniHotelSystem.csproj|D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{87550EDD-230B-486C-A481-5F37875421CA}|FUMiniHotelSystem.csproj|solutionrelative:loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60EDE8D3-FA6B-4F52-BE23-DC0297B6CACE}|..\\Services\\Services.csproj|d:\\fptu\\semester 5\\prn212\\assignment 1\\services\\roominformationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60EDE8D3-FA6B-4F52-BE23-DC0297B6CACE}|..\\Services\\Services.csproj|d:\\fptu\\semester 5\\prn212\\assignment 1\\services\\iroominformationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{60EDE8D3-FA6B-4F52-BE23-DC0297B6CACE}|..\\Services\\Services.csproj|d:\\fptu\\semester 5\\prn212\\assignment 1\\services\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -79,10 +108,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{60EDE8D3-FA6B-4F52-BE23-DC0297B6CACE}|..\\Services\\Services.csproj|d:\\fptu\\semester 5\\prn212\\assignment 1\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87550EDD-230B-486C-A481-5F37875421CA}|FUMiniHotelSystem.csproj|D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{87550EDD-230B-486C-A481-5F37875421CA}|FUMiniHotelSystem.csproj|solutionrelative:loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -92,7 +117,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -112,208 +137,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BookingReservationDAO.cs",
-              "DocumentMoniker": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\DataAccessLayer\\BookingReservationDAO.cs",
-              "RelativeDocumentMoniker": "..\\DataAccessLayer\\BookingReservationDAO.cs",
-              "ToolTip": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\DataAccessLayer\\BookingReservationDAO.cs",
-              "RelativeToolTip": "..\\DataAccessLayer\\BookingReservationDAO.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "DocumentIndex": 7,
+              "Title": "BookingDetailDAO.cs",
+              "DocumentMoniker": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\DataAccessLayer\\BookingDetailDAO.cs",
+              "RelativeDocumentMoniker": "..\\DataAccessLayer\\BookingDetailDAO.cs",
+              "ToolTip": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\DataAccessLayer\\BookingDetailDAO.cs",
+              "RelativeToolTip": "..\\DataAccessLayer\\BookingDetailDAO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T16:58:27.978Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BookingReservationWindow.xaml",
-              "DocumentMoniker": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\BookingReservationWindow.xaml",
-              "RelativeDocumentMoniker": "BookingReservationWindow.xaml",
-              "ToolTip": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\BookingReservationWindow.xaml",
-              "RelativeToolTip": "BookingReservationWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-09T16:57:11.838Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CustomerProfile.xaml.cs",
-              "DocumentMoniker": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\CustomerProfile.xaml.cs",
-              "RelativeDocumentMoniker": "CustomerProfile.xaml.cs",
-              "ToolTip": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\CustomerProfile.xaml.cs",
-              "RelativeToolTip": "CustomerProfile.xaml.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAYwBsAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T16:52:11.528Z",
+              "WhenOpened": "2024-06-10T05:51:43.171Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "CustomerProfile.xaml",
-              "DocumentMoniker": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\CustomerProfile.xaml",
-              "RelativeDocumentMoniker": "CustomerProfile.xaml",
-              "ToolTip": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\CustomerProfile.xaml",
-              "RelativeToolTip": "CustomerProfile.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-09T16:46:58.396Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BookingReservation.cs",
-              "DocumentMoniker": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\BusinessObject\\BookingReservation.cs",
-              "RelativeDocumentMoniker": "..\\BusinessObject\\BookingReservation.cs",
-              "ToolTip": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\BusinessObject\\BookingReservation.cs",
-              "RelativeToolTip": "..\\BusinessObject\\BookingReservation.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAABOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T16:45:33.257Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CreateReportWindow.xaml.cs",
-              "DocumentMoniker": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\CreateReportWindow.xaml.cs",
-              "RelativeDocumentMoniker": "CreateReportWindow.xaml.cs",
-              "ToolTip": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\CreateReportWindow.xaml.cs",
-              "RelativeToolTip": "CreateReportWindow.xaml.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAYwCIAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T16:41:24.688Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RoomInformationManagement.xaml.cs",
-              "DocumentMoniker": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\RoomInformationManagement.xaml.cs",
-              "RelativeDocumentMoniker": "RoomInformationManagement.xaml.cs",
-              "ToolTip": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\RoomInformationManagement.xaml.cs",
-              "RelativeToolTip": "RoomInformationManagement.xaml.cs",
-              "ViewState": "AQIAALsAAAAAAAAAAAAAAEsAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T16:03:41.029Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CreateReportWindow.xaml",
-              "DocumentMoniker": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\CreateReportWindow.xaml",
-              "RelativeDocumentMoniker": "CreateReportWindow.xaml",
-              "ToolTip": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\CreateReportWindow.xaml",
-              "RelativeToolTip": "CreateReportWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-09T16:40:36.605Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "RoomInformationManagement.xaml",
-              "DocumentMoniker": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\RoomInformationManagement.xaml",
-              "RelativeDocumentMoniker": "RoomInformationManagement.xaml",
-              "ToolTip": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\RoomInformationManagement.xaml",
-              "RelativeToolTip": "RoomInformationManagement.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-09T16:03:35.079Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "Customer.cs",
               "DocumentMoniker": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\BusinessObject\\Customer.cs",
               "RelativeDocumentMoniker": "..\\BusinessObject\\Customer.cs",
               "ToolTip": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\BusinessObject\\Customer.cs",
               "RelativeToolTip": "..\\BusinessObject\\Customer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAFAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwCQAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-09T15:08:58.192Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "CustomerDAO.cs",
+              "DocumentMoniker": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\DataAccessLayer\\CustomerDAO.cs",
+              "RelativeDocumentMoniker": "..\\DataAccessLayer\\CustomerDAO.cs",
+              "ToolTip": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\DataAccessLayer\\CustomerDAO.cs",
+              "RelativeToolTip": "..\\DataAccessLayer\\CustomerDAO.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAAwDEAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T15:14:05.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "LoginWindow.xaml.cs",
               "DocumentMoniker": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\LoginWindow.xaml.cs",
               "RelativeDocumentMoniker": "LoginWindow.xaml.cs",
               "ToolTip": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\LoginWindow.xaml.cs",
               "RelativeToolTip": "LoginWindow.xaml.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAgwCMAAABOAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAqwDIAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-09T08:29:13.032Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "BookingDetail.cs",
-              "DocumentMoniker": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\BusinessObject\\BookingDetail.cs",
-              "RelativeDocumentMoniker": "..\\BusinessObject\\BookingDetail.cs",
-              "ToolTip": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\BusinessObject\\BookingDetail.cs",
-              "RelativeToolTip": "..\\BusinessObject\\BookingDetail.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T16:38:21.226Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "IRoomInformationService.cs",
-              "DocumentMoniker": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\Services\\IRoomInformationService.cs",
-              "RelativeDocumentMoniker": "..\\Services\\IRoomInformationService.cs",
-              "ToolTip": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\Services\\IRoomInformationService.cs",
-              "RelativeToolTip": "..\\Services\\IRoomInformationService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T16:18:11.887Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AQIAAJIAAAAAAAAAAAAAALgAAAAnAAAA",
+              "ViewState": "AQIAAIwAAAAAAAAAAAAAwKgAAABZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-09T08:37:20.355Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "RoomInformationService.cs",
-              "DocumentMoniker": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\Services\\RoomInformationService.cs",
-              "RelativeDocumentMoniker": "..\\Services\\RoomInformationService.cs",
-              "ToolTip": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\Services\\RoomInformationService.cs",
-              "RelativeToolTip": "..\\Services\\RoomInformationService.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBEAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T16:18:15.348Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "AssemblyInfo.cs",
-              "ToolTip": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\AssemblyInfo.cs",
-              "RelativeToolTip": "AssemblyInfo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T16:01:06.274Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
@@ -325,43 +214,187 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "CustomerService.cs",
-              "DocumentMoniker": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\Services\\CustomerService.cs",
-              "RelativeDocumentMoniker": "..\\Services\\CustomerService.cs",
-              "ToolTip": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\Services\\CustomerService.cs",
-              "RelativeToolTip": "..\\Services\\CustomerService.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAIwCIAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T15:13:34.106Z"
+              "DocumentIndex": 3,
+              "Title": "BookingReservationWindow.xaml",
+              "DocumentMoniker": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\BookingReservationWindow.xaml",
+              "RelativeDocumentMoniker": "BookingReservationWindow.xaml",
+              "ToolTip": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\BookingReservationWindow.xaml",
+              "RelativeToolTip": "BookingReservationWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-09T16:57:11.838Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ICustomerService.cs",
-              "DocumentMoniker": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\Services\\ICustomerService.cs",
-              "RelativeDocumentMoniker": "..\\Services\\ICustomerService.cs",
-              "ToolTip": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\Services\\ICustomerService.cs",
-              "RelativeToolTip": "..\\Services\\ICustomerService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T15:13:24.895Z"
+              "DocumentIndex": 2,
+              "Title": "RoomInformationManagement.xaml",
+              "DocumentMoniker": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\RoomInformationManagement.xaml",
+              "RelativeDocumentMoniker": "RoomInformationManagement.xaml",
+              "ToolTip": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\RoomInformationManagement.xaml",
+              "RelativeToolTip": "RoomInformationManagement.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-09T16:03:35.079Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "CustomerDAO.cs",
-              "DocumentMoniker": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\DataAccessLayer\\CustomerDAO.cs",
-              "RelativeDocumentMoniker": "..\\DataAccessLayer\\CustomerDAO.cs",
-              "ToolTip": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\DataAccessLayer\\CustomerDAO.cs",
-              "RelativeToolTip": "..\\DataAccessLayer\\CustomerDAO.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAADcAAAAJAAAA",
+              "DocumentIndex": 9,
+              "Title": "BookingReservation.cs",
+              "DocumentMoniker": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\BusinessObject\\BookingReservation.cs",
+              "RelativeDocumentMoniker": "..\\BusinessObject\\BookingReservation.cs",
+              "ToolTip": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\BusinessObject\\BookingReservation.cs",
+              "RelativeToolTip": "..\\BusinessObject\\BookingReservation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T15:14:05.125Z"
+              "WhenOpened": "2024-06-09T16:45:33.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BookingDetail.cs",
+              "DocumentMoniker": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\BusinessObject\\BookingDetail.cs",
+              "RelativeDocumentMoniker": "..\\BusinessObject\\BookingDetail.cs",
+              "ToolTip": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\BusinessObject\\BookingDetail.cs",
+              "RelativeToolTip": "..\\BusinessObject\\BookingDetail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwB4AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T16:38:21.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BookingReservationDAO.cs",
+              "DocumentMoniker": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\DataAccessLayer\\BookingReservationDAO.cs",
+              "RelativeDocumentMoniker": "..\\DataAccessLayer\\BookingReservationDAO.cs",
+              "ToolTip": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\DataAccessLayer\\BookingReservationDAO.cs",
+              "RelativeToolTip": "..\\DataAccessLayer\\BookingReservationDAO.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T16:58:27.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BookingReservationService.cs",
+              "DocumentMoniker": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\Services\\BookingReservationService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\BookingReservationService.cs",
+              "ToolTip": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\Services\\BookingReservationService.cs",
+              "RelativeToolTip": "..\\Services\\BookingReservationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBQAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T05:44:13.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IBookingReservationService.cs",
+              "DocumentMoniker": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\Services\\IBookingReservationService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\IBookingReservationService.cs",
+              "ToolTip": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\Services\\IBookingReservationService.cs",
+              "RelativeToolTip": "..\\Services\\IBookingReservationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA8AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T05:44:19.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BookingReservationWindow.xaml.cs",
+              "DocumentMoniker": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\BookingReservationWindow.xaml.cs",
+              "RelativeDocumentMoniker": "BookingReservationWindow.xaml.cs",
+              "ToolTip": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\BookingReservationWindow.xaml.cs",
+              "RelativeToolTip": "BookingReservationWindow.xaml.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAADAAAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T04:20:49.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RoomInformation.cs",
+              "DocumentMoniker": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\BusinessObject\\RoomInformation.cs",
+              "RelativeDocumentMoniker": "..\\BusinessObject\\RoomInformation.cs",
+              "ToolTip": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\BusinessObject\\RoomInformation.cs",
+              "RelativeToolTip": "..\\BusinessObject\\RoomInformation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T05:39:24.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RoomInformationManagement.xaml.cs",
+              "DocumentMoniker": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\RoomInformationManagement.xaml.cs",
+              "RelativeDocumentMoniker": "RoomInformationManagement.xaml.cs",
+              "ToolTip": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\RoomInformationManagement.xaml.cs",
+              "RelativeToolTip": "RoomInformationManagement.xaml.cs",
+              "ViewState": "AQIAAJcAAAAAAAAAAADwv68AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T16:03:41.029Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
+              "Title": "BookingDetailService.cs",
+              "DocumentMoniker": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\Services\\BookingDetailService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\BookingDetailService.cs",
+              "ToolTip": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\Services\\BookingDetailService.cs",
+              "RelativeToolTip": "..\\Services\\BookingDetailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T05:45:02.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BookingReservationRepository.cs",
+              "DocumentMoniker": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\Repositories\\BookingReservationRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repositories\\BookingReservationRepository.cs",
+              "ToolTip": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\Repositories\\BookingReservationRepository.cs",
+              "RelativeToolTip": "..\\Repositories\\BookingReservationRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAACEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T05:43:58.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RoomTypeDAO.cs",
+              "DocumentMoniker": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\DataAccessLayer\\RoomTypeDAO.cs",
+              "RelativeDocumentMoniker": "..\\DataAccessLayer\\RoomTypeDAO.cs",
+              "ToolTip": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\DataAccessLayer\\RoomTypeDAO.cs",
+              "RelativeToolTip": "..\\DataAccessLayer\\RoomTypeDAO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T05:39:32.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CustomerProfile.xaml.cs",
+              "DocumentMoniker": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\CustomerProfile.xaml.cs",
+              "RelativeDocumentMoniker": "CustomerProfile.xaml.cs",
+              "ToolTip": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\CustomerProfile.xaml.cs",
+              "RelativeToolTip": "CustomerProfile.xaml.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAIAywD4AAABoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T16:52:11.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "App.xaml",
               "DocumentMoniker": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
@@ -373,18 +406,117 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CreateReportWindow.xaml.cs",
+              "DocumentMoniker": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\CreateReportWindow.xaml.cs",
+              "RelativeDocumentMoniker": "CreateReportWindow.xaml.cs",
+              "ToolTip": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\CreateReportWindow.xaml.cs",
+              "RelativeToolTip": "CreateReportWindow.xaml.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAQwGYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T16:41:24.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 22,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "AssemblyInfo.cs",
+              "ToolTip": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\AssemblyInfo.cs",
+              "RelativeToolTip": "AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T16:01:06.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CreateReportWindow.xaml",
+              "DocumentMoniker": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\CreateReportWindow.xaml",
+              "RelativeDocumentMoniker": "CreateReportWindow.xaml",
+              "ToolTip": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\CreateReportWindow.xaml",
+              "RelativeToolTip": "CreateReportWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-09T16:40:36.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CustomerProfile.xaml",
+              "DocumentMoniker": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\CustomerProfile.xaml",
+              "RelativeDocumentMoniker": "CustomerProfile.xaml",
+              "ToolTip": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\CustomerProfile.xaml",
+              "RelativeToolTip": "CustomerProfile.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-09T16:46:58.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "LoginWindow.xaml",
               "DocumentMoniker": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\LoginWindow.xaml",
               "RelativeDocumentMoniker": "LoginWindow.xaml",
               "ToolTip": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\FUMiniHotelSystem\\LoginWindow.xaml",
               "RelativeToolTip": "LoginWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-09T08:28:18.499Z"
+              "WhenOpened": "2024-06-09T08:28:18.499Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 30,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\Services\\CustomerService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\CustomerService.cs",
+              "ToolTip": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\Services\\CustomerService.cs",
+              "RelativeToolTip": "..\\Services\\CustomerService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAIwCIAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T15:13:34.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ICustomerService.cs",
+              "DocumentMoniker": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\Services\\ICustomerService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\ICustomerService.cs",
+              "ToolTip": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\Services\\ICustomerService.cs",
+              "RelativeToolTip": "..\\Services\\ICustomerService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T15:13:24.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IRoomInformationService.cs",
+              "DocumentMoniker": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\Services\\IRoomInformationService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\IRoomInformationService.cs",
+              "ToolTip": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\Services\\IRoomInformationService.cs",
+              "RelativeToolTip": "..\\Services\\IRoomInformationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T16:18:11.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "RoomInformationService.cs",
+              "DocumentMoniker": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\Services\\RoomInformationService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\RoomInformationService.cs",
+              "ToolTip": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\Services\\RoomInformationService.cs",
+              "RelativeToolTip": "..\\Services\\RoomInformationService.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T16:18:15.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
               "Title": "CustomerRepository.cs",
               "DocumentMoniker": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\Repositories\\CustomerRepository.cs",
               "RelativeDocumentMoniker": "..\\Repositories\\CustomerRepository.cs",

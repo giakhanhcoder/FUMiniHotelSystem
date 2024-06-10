@@ -1,4 +1,6 @@
-﻿using System;
+﻿using BusinessObject;
+using Services;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,9 +21,49 @@ namespace FUMiniHotelSystem
     /// </summary>
     public partial class BookingReservationWindow : Window
     {
-        public BookingReservationWindow()
+        private Customer currentUser;
+        private readonly IBookingReservationService bookingReservationService;
+
+
+        public BookingReservationWindow(Customer user)
         {
             InitializeComponent();
+            currentUser = user;
+            bookingReservationService = new BookingReservationService();
+            LoadBookingHistory();
+        }
+
+        private void btnClose_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void LoadBookingHistory()
+        {
+            if (currentUser == null || currentUser.BookingReservations == null)
+            {
+                MessageBox.Show("Invalid user data. Please try again.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
+            }
+
+            var bookingReservations = bookingReservationService.GetBookingReservationList()
+                                  .Where(br => br.CustomerID == currentUser.CustomerID)
+                                  .Select(br => new
+                                  {
+                                      br.BookingReservationID,
+                                      br.BookingDate,
+                                      br.TotalPrice,
+                                      BookingStatus = br.BookingStatus == 1 ? "Confirmed" : "Pending"
+                                  }).ToList();
+
+            dgBookingHistory.ItemsSource = bookingReservations;
+        }
+
+        private void btnUserProfile_Click(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            CustomerProfile customerProfile = new CustomerProfile(currentUser);
+            customerProfile.Show();
         }
     }
 }

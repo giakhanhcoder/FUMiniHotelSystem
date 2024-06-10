@@ -1,4 +1,5 @@
 ﻿using BusinessObject;
+using CustomerManagement;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -77,6 +78,28 @@ namespace FUMiniHotelSystem
         private void btnClose_Click(object sender, RoutedEventArgs e)
         {
             this.Close();
+        }
+
+        private void btnManageCustomerInfo_Click(object sender, RoutedEventArgs e)
+        {
+            // Logic to navigate to Manage Customer Information page
+            this.Hide();
+            MainWindow mainWindow = new MainWindow();
+            mainWindow.Show();
+        }
+
+        private void btnManageRoomInfo_Click(object sender, RoutedEventArgs e)
+        {
+            // Logic to navigate to Manage Room Information page
+            this.Hide();
+            RoomInformationManagement manageRoomInfoWindow = new RoomInformationManagement();
+            manageRoomInfoWindow.Show();
+        }
+
+        private void btnCreateReport_Click(object sender, RoutedEventArgs e)
+        {
+            // Logic to navigate to Create Report page
+            // No action needed as we are already in the Room Information Management page
         }
     }
 }

@@ -180,8 +180,8 @@ namespace FUMiniHotelSystem
         {
             // Logic to navigate to Create Report page
             this.Hide();
-            /*CreateReportWindow createReportWindow = new CreateReportWindow();
-            createReportWindow.Show(); */
+            CreateReportWindow createReportWindow = new CreateReportWindow();
+            createReportWindow.Show(); 
         }
     }
 }

@@ -56,5 +56,12 @@ namespace FUMiniHotelSystem
         {
             this.Close();
         }
+
+        private void btnBookingReservation_Click(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            BookingReservationWindow bookingReservationWindow = new BookingReservationWindow(currentUser);
+            bookingReservationWindow.Show();
+        }
     }
 }

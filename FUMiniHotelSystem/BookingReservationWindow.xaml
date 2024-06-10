@@ -33,15 +33,15 @@
         <DataGrid x:Name="dgBookingHistory" Margin="10" Grid.Column="0" Grid.Row="1" AutoGenerateColumns="False" CanUserAddRows="False">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Reservation ID" Binding="{Binding BookingReservationID}" Width="*"/>
-                <DataGridTextColumn Header="Booking Date" Binding="{Binding BookingDate, StringFormat=\{0:dd/MM/yyyy\}}" Width="*"/>
-                <DataGridTextColumn Header="Total Price" Binding="{Binding TotalPrice, StringFormat=\{0:C\}}" Width="*"/>
-                <DataGridTextColumn Header="Status" Binding="{Binding BookingStatus, Converter={StaticResource BookingStatusConverter}}" Width="*"/>
+                <DataGridTextColumn Header="Booking Date" Binding="{Binding BookingDate, StringFormat={}{0:dd/MM/yyyy}}" Width="*"/>
+                <DataGridTextColumn Header="Total Price" Binding="{Binding TotalPrice, StringFormat={}{0:C}}" Width="*"/>
+                <DataGridTextColumn Header="Status" Binding="{Binding BookingStatus}" Width="*"/>
             </DataGrid.Columns>
         </DataGrid>
 
         <StackPanel Grid.Column="0" Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,10,0,10">
+            <Button x:Name="btnUserProfile" Content="User Profile" Width="150" Height="50" Background="#FF1B71A1" Foreground="White" Margin="10,0,10,0" Click="btnUserProfile_Click"/>
             <Button x:Name="btnClose" Content="Close" Width="150" Height="50" Background="#FFEF8F18" Foreground="White" Margin="10,0,10,0" Click="btnClose_Click"/>
         </StackPanel>
     </Grid>
 </Window>
-

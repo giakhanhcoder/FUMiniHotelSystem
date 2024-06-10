@@ -47,18 +47,24 @@ namespace DataAccessLayer
             }
         }
 
-        public static Customer GetCustomerById(string id)
-        {
-            return Customers.FirstOrDefault(c => c.CustomerID.ToString() == id);
-        }
-
-        public static Customer GetAccountById(string customerId)
+        public static Customer GetCustomerById(string customerId)
         {
             Customer accountMember = new Customer();
             if (customerId.Equals("admin@FUMiniHotelSystem.com")) // just for demonstration
             {
                 accountMember.CustomerID= 1;
-                accountMember.EmailAddress = customerId;
+                accountMember.CustomerFullName = customerId;
+                accountMember.Password = "123";
+            }else if (customerId.Equals("giakhanh"))
+            {
+                accountMember.CustomerID = 2;
+                accountMember.CustomerFullName = customerId;
+                accountMember.Password = "123";
+            }
+            else if (customerId.Equals("haiquyen"))
+            {
+                accountMember.CustomerID = 3;
+                accountMember.CustomerFullName = customerId;
                 accountMember.Password = "123";
             }
             return accountMember;
