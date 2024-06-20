@@ -1,33 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace BusinessObject
+namespace BusinessObject;
+
+public partial class BookingDetail
 {
-    public partial class BookingDetail
-    {
-        [Key, Column(Order = 0)]
-        public int BookingReservationID { get; set; }
+    public int BookingReservationId { get; set; }
 
-        [Key, Column(Order = 1)]
-        public int RoomID { get; set; }
+    public int RoomId { get; set; }
 
-        [Required]
-        public DateTime StartDate { get; set; }
+    public DateOnly StartDate { get; set; }
 
-        [Required]
-        public DateTime EndDate { get; set; }
+    public DateOnly EndDate { get; set; }
 
-        public decimal? ActualPrice { get; set; }
+    public decimal? ActualPrice { get; set; }
 
-        [ForeignKey("BookingReservationID")]
-        public virtual BookingReservation BookingReservation { get; set; }
+    public virtual BookingReservation BookingReservation { get; set; } = null!;
 
-        [ForeignKey("RoomID")]
-        public virtual RoomInformation RoomInformation { get; set; }
-    }
+    public virtual RoomInformation Room { get; set; } = null!;
 }

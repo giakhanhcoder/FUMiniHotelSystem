@@ -10,7 +10,7 @@ namespace Repositories
 {
     public interface IRoomInformationRepository
     {
-        ObservableCollection<RoomInformation> GetRoomInformation();
+        List<RoomInformation> GetRoomInformation();
 
         void SaveRoomInformation(RoomInformation roomInformation);
 

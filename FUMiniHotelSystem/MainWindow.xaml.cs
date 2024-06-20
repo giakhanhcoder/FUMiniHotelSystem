@@ -52,7 +52,7 @@ namespace CustomerManagement
                     CustomerFullName = txtCustomerFullName.Text,
                     Telephone = txtTelePhone.Text,
                     EmailAddress = txtEmailAddress.Text,
-                    CustomerBirthday = dpCustomerBirthday.SelectedDate.Value,
+                    CustomerBirthday = DateOnly.FromDateTime(dpCustomerBirthday.SelectedDate.Value),
                     CustomerStatus = byte.Parse((cboCustomerStatus.SelectedItem as ComboBoxItem).Tag.ToString()),
                     Password = pwdPassword.Password
                 };
@@ -76,11 +76,11 @@ namespace CustomerManagement
             Customer selectCustomer = dgData.SelectedItem as Customer;
             if (selectCustomer != null)
             {
-                txtCustomerID.Text = selectCustomer.CustomerID.ToString();
+                txtCustomerID.Text = selectCustomer.CustomerId.ToString();
                 txtCustomerFullName.Text = selectCustomer.CustomerFullName;
                 txtTelePhone.Text = selectCustomer.Telephone;
                 txtEmailAddress.Text = selectCustomer.EmailAddress;
-                dpCustomerBirthday.SelectedDate = selectCustomer.CustomerBirthday;
+                dpCustomerBirthday.SelectedDate = selectCustomer.CustomerBirthday.Value.ToDateTime(TimeOnly.MinValue);
                 cboCustomerStatus.SelectedIndex = selectCustomer.CustomerStatus == 1 ? 0 : 1;
                 pwdPassword.Password = selectCustomer.Password;
             }
@@ -99,11 +99,11 @@ namespace CustomerManagement
                 {
                     Customer customer = new Customer
                     {
-                        CustomerID = Int32.Parse(txtCustomerID.Text),
+                        CustomerId = Int32.Parse(txtCustomerID.Text),
                         CustomerFullName = txtCustomerFullName.Text,
                         Telephone= txtTelePhone.Text,
                         EmailAddress = txtEmailAddress.Text,
-                        CustomerBirthday = dpCustomerBirthday.SelectedDate.Value,
+                        CustomerBirthday = DateOnly.FromDateTime(dpCustomerBirthday.SelectedDate.Value),
                         CustomerStatus = byte.Parse((cboCustomerStatus.SelectedItem as ComboBoxItem).Tag.ToString()),
                         Password = pwdPassword.Password
                     };
@@ -132,7 +132,7 @@ namespace CustomerManagement
                 {
                     Customer customer = new Customer
                     {
-                        CustomerID = Int32.Parse(txtCustomerID.Text)
+                        CustomerId = Int32.Parse(txtCustomerID.Text)
                     };
                     iCustomerService.DeleteCustomer(customer);
                 }

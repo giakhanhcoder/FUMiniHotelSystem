@@ -31,11 +31,11 @@ namespace FUMiniHotelSystem
 
         private void LoadUserProfile()
         {
-            txtCustomerID.Text = currentUser.CustomerID.ToString();
+            txtCustomerID.Text = currentUser.CustomerId.ToString();
             txtCustomerFullName.Text = currentUser.CustomerFullName;
             txtTelephone.Text = currentUser.Telephone;
             txtEmailAddress.Text = currentUser.EmailAddress;
-            dpCustomerBirthday.SelectedDate = currentUser.CustomerBirthday;
+            dpCustomerBirthday.SelectedDate = currentUser.CustomerBirthday.Value.ToDateTime(TimeOnly.MinValue);
             cboCustomerStatus.SelectedIndex = currentUser.CustomerStatus == 1 ? 0 : 1;
             pwdPassword.Password = currentUser.Password;
         }
@@ -45,7 +45,7 @@ namespace FUMiniHotelSystem
             currentUser.CustomerFullName = txtCustomerFullName.Text;
             currentUser.Telephone = txtTelephone.Text;
             currentUser.EmailAddress = txtEmailAddress.Text;
-            currentUser.CustomerBirthday = dpCustomerBirthday.SelectedDate;
+            currentUser.CustomerBirthday = DateOnly.FromDateTime(dpCustomerBirthday.SelectedDate.Value);
             currentUser.CustomerStatus = cboCustomerStatus.SelectedIndex == 0 ? (byte)1 : (byte)0;
             currentUser.Password = pwdPassword.Password;
 

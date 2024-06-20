@@ -10,64 +10,74 @@ namespace DataAccessLayer
 {
     public class CustomerDAO
     {
-        public static ObservableCollection<Customer> Customers = new ObservableCollection<Customer>();
-        private static int countId = 1;
 
-        public static ObservableCollection<Customer> GetCustomers()
+        public static List<Customer> GetCustomers()
         {
-            return Customers;
+            var listCustomer = new List<Customer>();
+            try
+            {
+                using var db = new FuminiHotelManagementContext();
+                listCustomer = db.Customers.ToList();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }   
+            return listCustomer;
         }
 
         public static void SaveCustomer(Customer customer)
         {
-            customer.CustomerID = countId++;
-            Customers.Add(customer);
+            try
+            {
+                using var db = new FuminiHotelManagementContext();
+                db.Customers.Add(customer);
+                db.SaveChanges();
+            }catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
         }
 
         public static void UpdateCustomer(Customer customer)
         {
-            var existingCustomer = Customers.FirstOrDefault(c => c.CustomerID == customer.CustomerID);
-            if (existingCustomer != null)
+            try
             {
-                existingCustomer.CustomerFullName = customer.CustomerFullName;
-                existingCustomer.Telephone = customer.Telephone;
-                existingCustomer.EmailAddress = customer.EmailAddress;
-                existingCustomer.CustomerBirthday = customer.CustomerBirthday;
-                existingCustomer.CustomerStatus = customer.CustomerStatus;
-                existingCustomer.Password = customer.Password;
+                using var db = new FuminiHotelManagementContext();
+                db.Entry(customer).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+                db.SaveChanges();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
             }
         }
 
         public static void DeleteCustomer(Customer customer)
         {
-            var existingCustomer = Customers.FirstOrDefault(c => c.CustomerID == customer.CustomerID);
-            if (existingCustomer != null)
+            try
             {
-                Customers.Remove(existingCustomer);
+                using var db = new FuminiHotelManagementContext();
+                var c1 =
+                    db.Customers.SingleOrDefault(c => c.CustomerId == customer.CustomerId);
+                db.Customers.Remove(c1);
+
+                db.SaveChanges();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
             }
         }
 
         public static Customer GetCustomerById(string customerId)
         {
-            Customer accountMember = new Customer();
-            if (customerId.Equals("admin@FUMiniHotelSystem.com")) // just for demonstration
-            {
-                accountMember.CustomerID= 1;
-                accountMember.CustomerFullName = customerId;
-                accountMember.Password = "123";
-            }else if (customerId.Equals("giakhanh"))
-            {
-                accountMember.CustomerID = 2;
-                accountMember.CustomerFullName = customerId;
-                accountMember.Password = "123";
-            }
-            else if (customerId.Equals("haiquyen"))
-            {
-                accountMember.CustomerID = 3;
-                accountMember.CustomerFullName = customerId;
-                accountMember.Password = "123";
-            }
-            return accountMember;
+           using var db = new FuminiHotelManagementContext();
+            return db.Customers.FirstOrDefault(c => c.CustomerFullName.Equals(customerId));
         }
     }
 }

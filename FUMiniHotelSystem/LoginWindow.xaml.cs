@@ -34,27 +34,17 @@ namespace FUMiniHotelSystem
         private void btnLogin_Click(object sender, RoutedEventArgs e)
         {
             Customer account = iCustomerService.GetCustomerById(txtUser.Text);
-            if (account != null && account.Password.Equals(txtPass.Password)
-                && account.CustomerID == 1)
+            if (account != null && account.Password.Equals(txtPass.Password) && account.CustomerFullName.Equals("William Shakespeare"))
             { 
                 this.Hide();
                 MainWindow mainWindow = new MainWindow();
                 mainWindow.Show();
-            }else if (account != null && account.Password.Equals(txtPass.Password)
-                && account.CustomerID == 2)
+            }else if (account != null && account.Password.Equals(txtPass.Password))
             {
                 this.Hide();
                 CustomerProfile customerProfile = new CustomerProfile(account);
                 customerProfile.Show();
             }
-            else if (account != null && account.Password.Equals(txtPass.Password)
-                && account.CustomerID == 3)
-            {
-                this.Hide();
-                CustomerProfile customerProfile = new CustomerProfile(account);
-                customerProfile.Show();
-            }
-
             else
             {
                 MessageBox.Show("You are not perrmision !");

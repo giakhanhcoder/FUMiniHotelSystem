@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\Services\\Services.csproj": {}
+    "D:\\FPTU\\Semester 5\\PRN212\\assignment 2\\FUMiniHotelSystem\\Services\\Services.csproj": {}
   },
   "projects": {
-    "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\BusinessObject\\BusinessObject.csproj": {
+    "D:\\FPTU\\Semester 5\\PRN212\\assignment 2\\FUMiniHotelSystem\\BusinessObject\\BusinessObject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\BusinessObject\\BusinessObject.csproj",
+        "projectUniqueName": "D:\\FPTU\\Semester 5\\PRN212\\assignment 2\\FUMiniHotelSystem\\BusinessObject\\BusinessObject.csproj",
         "projectName": "BusinessObject",
-        "projectPath": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\BusinessObject\\BusinessObject.csproj",
+        "projectPath": "D:\\FPTU\\Semester 5\\PRN212\\assignment 2\\FUMiniHotelSystem\\BusinessObject\\BusinessObject.csproj",
         "packagesPath": "C:\\Users\\GIA KHANH\\.nuget\\packages\\",
-        "outputPath": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\BusinessObject\\obj\\",
+        "outputPath": "D:\\FPTU\\Semester 5\\PRN212\\assignment 2\\FUMiniHotelSystem\\BusinessObject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -48,6 +48,22 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -68,14 +84,14 @@
         }
       }
     },
-    "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "D:\\FPTU\\Semester 5\\PRN212\\assignment 2\\FUMiniHotelSystem\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "D:\\FPTU\\Semester 5\\PRN212\\assignment 2\\FUMiniHotelSystem\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectPath": "D:\\FPTU\\Semester 5\\PRN212\\assignment 2\\FUMiniHotelSystem\\DataAccessLayer\\DataAccessLayer.csproj",
         "packagesPath": "C:\\Users\\GIA KHANH\\.nuget\\packages\\",
-        "outputPath": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\DataAccessLayer\\obj\\",
+        "outputPath": "D:\\FPTU\\Semester 5\\PRN212\\assignment 2\\FUMiniHotelSystem\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -96,8 +112,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\BusinessObject\\BusinessObject.csproj": {
-                "projectPath": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\BusinessObject\\BusinessObject.csproj"
+              "D:\\FPTU\\Semester 5\\PRN212\\assignment 2\\FUMiniHotelSystem\\BusinessObject\\BusinessObject.csproj": {
+                "projectPath": "D:\\FPTU\\Semester 5\\PRN212\\assignment 2\\FUMiniHotelSystem\\BusinessObject\\BusinessObject.csproj"
               }
             }
           }
@@ -142,14 +158,14 @@
         }
       }
     },
-    "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\Repositories\\Repositories.csproj": {
+    "D:\\FPTU\\Semester 5\\PRN212\\assignment 2\\FUMiniHotelSystem\\Repositories\\Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\Repositories\\Repositories.csproj",
+        "projectUniqueName": "D:\\FPTU\\Semester 5\\PRN212\\assignment 2\\FUMiniHotelSystem\\Repositories\\Repositories.csproj",
         "projectName": "Repositories",
-        "projectPath": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\Repositories\\Repositories.csproj",
+        "projectPath": "D:\\FPTU\\Semester 5\\PRN212\\assignment 2\\FUMiniHotelSystem\\Repositories\\Repositories.csproj",
         "packagesPath": "C:\\Users\\GIA KHANH\\.nuget\\packages\\",
-        "outputPath": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\Repositories\\obj\\",
+        "outputPath": "D:\\FPTU\\Semester 5\\PRN212\\assignment 2\\FUMiniHotelSystem\\Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -170,11 +186,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\BusinessObject\\BusinessObject.csproj": {
-                "projectPath": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\BusinessObject\\BusinessObject.csproj"
+              "D:\\FPTU\\Semester 5\\PRN212\\assignment 2\\FUMiniHotelSystem\\BusinessObject\\BusinessObject.csproj": {
+                "projectPath": "D:\\FPTU\\Semester 5\\PRN212\\assignment 2\\FUMiniHotelSystem\\BusinessObject\\BusinessObject.csproj"
               },
-              "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\DataAccessLayer\\DataAccessLayer.csproj": {
-                "projectPath": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\DataAccessLayer\\DataAccessLayer.csproj"
+              "D:\\FPTU\\Semester 5\\PRN212\\assignment 2\\FUMiniHotelSystem\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "D:\\FPTU\\Semester 5\\PRN212\\assignment 2\\FUMiniHotelSystem\\DataAccessLayer\\DataAccessLayer.csproj"
               }
             }
           }
@@ -213,14 +229,14 @@
         }
       }
     },
-    "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\Services\\Services.csproj": {
+    "D:\\FPTU\\Semester 5\\PRN212\\assignment 2\\FUMiniHotelSystem\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\Services\\Services.csproj",
+        "projectUniqueName": "D:\\FPTU\\Semester 5\\PRN212\\assignment 2\\FUMiniHotelSystem\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\Services\\Services.csproj",
+        "projectPath": "D:\\FPTU\\Semester 5\\PRN212\\assignment 2\\FUMiniHotelSystem\\Services\\Services.csproj",
         "packagesPath": "C:\\Users\\GIA KHANH\\.nuget\\packages\\",
-        "outputPath": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\Services\\obj\\",
+        "outputPath": "D:\\FPTU\\Semester 5\\PRN212\\assignment 2\\FUMiniHotelSystem\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -241,11 +257,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\BusinessObject\\BusinessObject.csproj": {
-                "projectPath": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\BusinessObject\\BusinessObject.csproj"
+              "D:\\FPTU\\Semester 5\\PRN212\\assignment 2\\FUMiniHotelSystem\\BusinessObject\\BusinessObject.csproj": {
+                "projectPath": "D:\\FPTU\\Semester 5\\PRN212\\assignment 2\\FUMiniHotelSystem\\BusinessObject\\BusinessObject.csproj"
               },
-              "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\Repositories\\Repositories.csproj": {
-                "projectPath": "D:\\FPTU\\Semester 5\\PRN212\\assignment 1\\Repositories\\Repositories.csproj"
+              "D:\\FPTU\\Semester 5\\PRN212\\assignment 2\\FUMiniHotelSystem\\Repositories\\Repositories.csproj": {
+                "projectPath": "D:\\FPTU\\Semester 5\\PRN212\\assignment 2\\FUMiniHotelSystem\\Repositories\\Repositories.csproj"
               }
             }
           }

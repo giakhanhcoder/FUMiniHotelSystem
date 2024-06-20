@@ -1,52 +1,79 @@
 ﻿using BusinessObject;
 using System;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DataAccessLayer
 {
     public class BookingDetailDAO
     {
-        public static ObservableCollection<BookingDetail> BookingDetails = new ObservableCollection<BookingDetail>();
-        private static int countId = 1;
-
-        public static ObservableCollection<BookingDetail> GetBookingDetails()
+        public static List<BookingDetail> GetBookingDetails()
         {
-            return BookingDetails;
+            var listBookingDetail = new List<BookingDetail>();
+            try
+            {
+                using var db = new FuminiHotelManagementContext();
+                listBookingDetail = db.BookingDetails.ToList();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
+            return listBookingDetail;
         }
 
         public static void SaveBookingDetail(BookingDetail bookingDetail)
         {
-            bookingDetail.BookingReservationID = countId++;
-            BookingDetails.Add(bookingDetail);
+            try
+            {
+                using var db = new FuminiHotelManagementContext();
+                db.BookingDetails.Add(bookingDetail);
+                db.SaveChanges();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
         }
 
         public static void UpdateBookingDetail(BookingDetail bookingDetail)
         {
-            var existingDetail = BookingDetails.FirstOrDefault(bd => bd.BookingReservationID == bookingDetail.BookingReservationID && bd.RoomID == bookingDetail.RoomID);
-            if (existingDetail != null)
+            try
             {
-                existingDetail.StartDate = bookingDetail.StartDate;
-                existingDetail.EndDate = bookingDetail.EndDate;
-                existingDetail.ActualPrice = bookingDetail.ActualPrice;
+                using var db = new FuminiHotelManagementContext();
+                db.Entry(bookingDetail).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+                db.SaveChanges();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
             }
         }
 
         public static void DeleteBookingDetail(BookingDetail bookingDetail)
         {
-            var existingDetail = BookingDetails.FirstOrDefault(bd => bd.BookingReservationID == bookingDetail.BookingReservationID && bd.RoomID == bookingDetail.RoomID);
-            if (existingDetail != null)
+            try
             {
-                BookingDetails.Remove(existingDetail);
+                using var db = new FuminiHotelManagementContext();
+                var bd =
+                    db.BookingDetails.SingleOrDefault(b => b.BookingReservationId == bookingDetail.BookingReservationId && b.RoomId == bookingDetail.RoomId);
+                db.BookingDetails.Remove(bd);
+                db.SaveChanges();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
             }
         }
 
         public static BookingDetail GetBookingDetailById(int bookingReservationId, int roomId)
         {
-            return BookingDetails.FirstOrDefault(bd => bd.BookingReservationID == bookingReservationId && bd.RoomID == roomId);
+            using var db = new FuminiHotelManagementContext();
+            return db.BookingDetails.FirstOrDefault(b => b.BookingReservationId == bookingReservationId && b.RoomId == roomId);
         }
     }
 }

@@ -12,7 +12,7 @@ namespace Repositories
     public class BookingReservationRepository : IBookingReservationRepository
     {
 
-        public ObservableCollection<BookingReservation> GetBookingReservations () => BookingReservationDAO.GetBookingReservations();
+        public List<BookingReservation> GetBookingReservations () => BookingReservationDAO.GetBookingReservations();
 
         public BookingReservation GetBookingReservationById(int id) => BookingReservationDAO.GetBookingReservationById(id);
 

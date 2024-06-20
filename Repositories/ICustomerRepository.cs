@@ -10,7 +10,7 @@ namespace Repositories
 {
     public interface ICustomerRepository
     {
-        ObservableCollection<Customer> GetCustomers();
+        List<Customer> GetCustomers();
 
         void SaveCustomer(Customer customer);
 

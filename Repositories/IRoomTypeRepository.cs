@@ -10,7 +10,7 @@ namespace Repositories
 {
     public interface IRoomTypeRepository
     {
-        ObservableCollection<RoomType> GetRoomTypes();
+        List<RoomType> GetRoomTypes();
 
         RoomType GetRoomTypeById(int id);
 

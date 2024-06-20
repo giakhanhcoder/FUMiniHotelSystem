@@ -1,31 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace BusinessObject
+namespace BusinessObject;
+
+public partial class RoomType
 {
-    public partial class RoomType
-    {
-        public RoomType()
-        {
-            RoomInformations = new HashSet<RoomInformation>();
-        }
+    public int RoomTypeId { get; set; }
 
-        [Key]
-        public int RoomTypeID { get; set; }
+    public string RoomTypeName { get; set; } = null!;
 
-        [Required, StringLength(50)]
-        public string RoomTypeName { get; set; }
+    public string? TypeDescription { get; set; }
 
-        [StringLength(250)]
-        public string TypeDescription { get; set; }
+    public string? TypeNote { get; set; }
 
-        [StringLength(250)]
-        public string TypeNote { get; set; }
-
-        public virtual ICollection<RoomInformation> RoomInformations { get; set; }
-    }
+    public virtual ICollection<RoomInformation> RoomInformations { get; set; } = new List<RoomInformation>();
 }

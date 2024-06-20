@@ -1,55 +1,79 @@
 ﻿using BusinessObject;
 using System;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DataAccessLayer
 {
     public class RoomInformationDAO
     {
-        public static ObservableCollection<RoomInformation> RoomInformations = new ObservableCollection<RoomInformation>();
-        private static int countId = 1;
-
-        public static ObservableCollection<RoomInformation> GetRoomInformations()
+        public static List<RoomInformation> GetRoomInformations()
         {
-            return RoomInformations;
+            var listRoomInformation = new List<RoomInformation>();
+            try
+            {
+                using var db = new FuminiHotelManagementContext();
+                listRoomInformation = db.RoomInformations.ToList();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
+            return listRoomInformation;
         }
 
         public static void SaveRoomInformation(RoomInformation roomInformation)
         {
-            roomInformation.RoomID = countId++;
-            RoomInformations.Add(roomInformation);
+            try
+            {
+                using var db = new FuminiHotelManagementContext();
+                db.RoomInformations.Add(roomInformation);
+                db.SaveChanges();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
         }
 
         public static void UpdateRoomInformation(RoomInformation roomInformation)
         {
-            var existingRoom = RoomInformations.FirstOrDefault(r => r.RoomID == roomInformation.RoomID);
-            if (existingRoom != null)
+            try
             {
-                existingRoom.RoomNumber = roomInformation.RoomNumber;
-                existingRoom.RoomDetailDescription = roomInformation.RoomDetailDescription;
-                existingRoom.RoomMaxCapacity = roomInformation.RoomMaxCapacity;
-                existingRoom.RoomTypeID = roomInformation.RoomTypeID;
-                existingRoom.RoomStatus = roomInformation.RoomStatus;
-                existingRoom.RoomPricePerDay = roomInformation.RoomPricePerDay;
+                using var db = new FuminiHotelManagementContext();
+                db.Entry(roomInformation).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+                db.SaveChanges();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
             }
         }
 
         public static void DeleteRoomInformation(RoomInformation roomInformation)
         {
-            var existingRoom = RoomInformations.FirstOrDefault(r => r.RoomID == roomInformation.RoomID);
-            if (existingRoom != null)
+            try
             {
-                RoomInformations.Remove(existingRoom);
+                using var db = new FuminiHotelManagementContext();
+                var ri =
+                    db.RoomInformations.SingleOrDefault(r => r.RoomId == roomInformation.RoomId);
+                db.RoomInformations.Remove(ri);
+                db.SaveChanges();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
             }
         }
 
         public static RoomInformation GetRoomInformationById(int id)
         {
-            return RoomInformations.FirstOrDefault(r => r.RoomID == id);
+            using var db = new FuminiHotelManagementContext();
+            return db.RoomInformations.FirstOrDefault(r => r.RoomId == id);
         }
     }
 }

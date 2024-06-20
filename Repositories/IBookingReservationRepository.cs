@@ -5,7 +5,7 @@ namespace Repositories
 {
     public interface IBookingReservationRepository
     {
-        ObservableCollection<BookingReservation> GetBookingReservations();
+        List<BookingReservation> GetBookingReservations();
 
         void SaveBookingReservation(BookingReservation bookingReservation);
 

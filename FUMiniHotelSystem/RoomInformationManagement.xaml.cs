@@ -52,7 +52,7 @@ namespace FUMiniHotelSystem
                     RoomNumber = txtRoomNumber.Text,
                     RoomDetailDescription = txtRoomDetailDescription.Text,
                     RoomMaxCapacity = int.Parse(txtRoomMaxCapacity.Text),
-                    RoomTypeID = int.Parse(txtRoomTypeID.Text),
+                    RoomTypeId = int.Parse(txtRoomTypeID.Text),
                     RoomStatus = byte.Parse((cboRoomStatus.SelectedItem as ComboBoxItem).Tag.ToString()),
                     RoomPricePerDay = decimal.Parse(txtRoomPricePerDay.Text)
                 };
@@ -76,11 +76,11 @@ namespace FUMiniHotelSystem
             RoomInformation selectedRoom = dgData.SelectedItem as RoomInformation;
             if (selectedRoom != null)
             {
-                txtRoomID.Text = selectedRoom.RoomID.ToString();
+                txtRoomID.Text = selectedRoom.RoomId.ToString();
                 txtRoomNumber.Text = selectedRoom.RoomNumber;
                 txtRoomDetailDescription.Text = selectedRoom.RoomDetailDescription;
                 txtRoomMaxCapacity.Text = selectedRoom.RoomMaxCapacity.ToString();
-                txtRoomTypeID.Text = selectedRoom.RoomTypeID.ToString();
+                txtRoomTypeID.Text = selectedRoom.RoomTypeId.ToString();
                 cboRoomStatus.SelectedIndex = selectedRoom.RoomStatus == 1 ? 0 : 1;
                 txtRoomPricePerDay.Text = selectedRoom.RoomPricePerDay.ToString();
             }
@@ -99,11 +99,11 @@ namespace FUMiniHotelSystem
                 {
                     RoomInformation room = new RoomInformation
                     {
-                        RoomID = int.Parse(txtRoomID.Text),
+                        RoomId = int.Parse(txtRoomID.Text),
                         RoomNumber = txtRoomNumber.Text,
                         RoomDetailDescription = txtRoomDetailDescription.Text,
                         RoomMaxCapacity = int.Parse(txtRoomMaxCapacity.Text),
-                        RoomTypeID = int.Parse(txtRoomTypeID.Text),
+                        RoomTypeId = int.Parse(txtRoomTypeID.Text),
                         RoomStatus = byte.Parse((cboRoomStatus.SelectedItem as ComboBoxItem).Tag.ToString()),
                         RoomPricePerDay = decimal.Parse(txtRoomPricePerDay.Text)
                     };
@@ -132,7 +132,7 @@ namespace FUMiniHotelSystem
                 {
                     RoomInformation room = new RoomInformation
                     {
-                        RoomID = int.Parse(txtRoomID.Text)
+                        RoomId = int.Parse(txtRoomID.Text)
                     };
                     roomService.DeleteRoomInformation(room);
                 }

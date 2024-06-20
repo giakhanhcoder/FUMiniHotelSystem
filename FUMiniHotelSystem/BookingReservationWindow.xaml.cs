@@ -47,10 +47,10 @@ namespace FUMiniHotelSystem
             }
 
             var bookingReservations = bookingReservationService.GetBookingReservationList()
-                                  .Where(br => br.CustomerID == currentUser.CustomerID)
+                                  .Where(br => br.CustomerId == currentUser.CustomerId)
                                   .Select(br => new
                                   {
-                                      br.BookingReservationID,
+                                      br.BookingReservationId,
                                       br.BookingDate,
                                       br.TotalPrice,
                                       BookingStatus = br.BookingStatus == 1 ? "Confirmed" : "Pending"

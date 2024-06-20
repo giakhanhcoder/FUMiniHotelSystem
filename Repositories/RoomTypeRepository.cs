@@ -11,7 +11,7 @@ namespace Repositories
 {
     public class RoomTypeRepository : IRoomTypeRepository
     {
-        public ObservableCollection<RoomType> GetRoomTypes() => RoomTypeDAO.GetRoomTypes();
+        public List<RoomType> GetRoomTypes() => RoomTypeDAO.GetRoomTypes();
 
         public RoomType GetRoomTypeById(int id) => RoomTypeDAO.GetRoomTypeById(id);
     }

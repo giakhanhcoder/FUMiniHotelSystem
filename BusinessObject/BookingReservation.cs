@@ -1,35 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace BusinessObject
+namespace BusinessObject;
+
+public partial class BookingReservation
 {
-    public partial class BookingReservation
-    {
-        public BookingReservation()
-        {
-            BookingDetails = new HashSet<BookingDetail>();
-        }
+    public int BookingReservationId { get; set; }
 
-        [Key]
-        public int BookingReservationID { get; set; }
+    public DateOnly? BookingDate { get; set; }
 
-        public DateTime? BookingDate { get; set; }
+    public decimal? TotalPrice { get; set; }
 
-        public decimal? TotalPrice { get; set; }
+    public int CustomerId { get; set; }
 
-        [Required]
-        public int CustomerID { get; set; }
+    public byte? BookingStatus { get; set; }
 
-        public byte? BookingStatus { get; set; }
+    public virtual ICollection<BookingDetail> BookingDetails { get; set; } = new List<BookingDetail>();
 
-        [ForeignKey("CustomerID")]
-        public virtual Customer Customer { get; set; }
-
-        public virtual ICollection<BookingDetail> BookingDetails { get; set; }
-    }
+    public virtual Customer Customer { get; set; } = null!;
 }

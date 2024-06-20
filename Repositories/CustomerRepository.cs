@@ -11,7 +11,7 @@ namespace Repositories
 {
     public class CustomerRepository : ICustomerRepository
     {
-        public ObservableCollection<Customer> GetCustomers() => CustomerDAO.GetCustomers();
+        public List<Customer> GetCustomers() => CustomerDAO.GetCustomers();
 
         public Customer GetCustomerById(String id) => CustomerDAO.GetCustomerById(id);
 

@@ -11,7 +11,7 @@ namespace Repositories
 {
     public class BookingDetailRepository : IBookingDetailRepository
     {
-        public ObservableCollection<BookingDetail> GetBookingDetails() => BookingDetailDAO.GetBookingDetails();
+        public List<BookingDetail> GetBookingDetails() => BookingDetailDAO.GetBookingDetails();
 
         public BookingDetail GetBookingDetailById(int bookingReservationId, int roomId) => BookingDetailDAO.GetBookingDetailById(bookingReservationId, roomId);
 
